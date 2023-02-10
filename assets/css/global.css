@@ -5,15 +5,39 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.row {
-    display: flex;
-}
-
-
-.padding {
-    padding: 2rem 13rem;
-}
-
 p {
     text-align: justify;
+}
+
+.width {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 2rem;
+    gap: 3rem;
+}
+
+.padding {
+    padding: 6rem 2rem;
+}
+
+@media (max-width: 700px)
+{
+  .width {
+    flex-direction: column;
+  }
+
+  .avatares h3{
+    text-align: center;
+  }
+
+  h3#title-marcos {
+    text-align: center;
+  }
+
+  #marcos-div {
+    display: flex;
+    flex-direction: column-reverse;
+  }
 }

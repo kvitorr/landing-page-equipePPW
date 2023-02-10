@@ -7,4 +7,5 @@ Autores: Adélia Mara, Marcos Paulo e Vitor Araujo
 
 ## 
 
-![Landing Page](./assets/images/pagina1.png)
+![Landing Page](./assets/images/desktop.png)
+![Landing Page](./assets/images/mobile.png)

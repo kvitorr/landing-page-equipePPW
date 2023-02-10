@@ -6,6 +6,8 @@
     justify-content: center;
     align-items: center;
     background-color: #FAF7EF;
+    text-align: center;
+    padding: 0rem 2rem;
 }
 
 .introducao h2 {
@@ -20,4 +22,11 @@ h2#introducao-title::after {
     width: 100%;
     margin-top: 2px;
 }
+
+@media (max-width: 700px) {
+    .introducao {
+        height: 50vh;
+    }
+}
+
 

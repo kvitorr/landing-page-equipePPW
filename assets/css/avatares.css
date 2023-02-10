@@ -1,31 +1,11 @@
-
 .avatares {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-#title-section {
     width: 100%;
-    text-align: center;
-    padding: 1rem;
-}
-.apresentacoes {
-    display: flex;
-    flex-direction: column;
     overflow: hidden;
-}
-
-.apresentacao-individual {
-    display: flex;
-    align-items: center;
-    gap: 4rem;
 }
 
 #title-marcos {
     text-align: right;
 }
-
 
 #adelia, #vitor, #marcos{
     width: 220px;
