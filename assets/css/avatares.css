@@ -1,0 +1,66 @@
+
+.avatares {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#title-section {
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+}
+.apresentacoes {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.apresentacao-individual {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+
+#title-marcos {
+    text-align: right;
+}
+
+
+#adelia, #vitor, #marcos{
+    width: 220px;
+    height: 220px;
+    border-radius: 100%;
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
+    transition: opacity 0.7s ease-in-out;
+}
+
+.adeliar:hover {
+    transform: scale(1.03);
+    transition: 0.5s;
+    background-color:#7ad2f0;
+}
+
+.marcor:hover {
+    transform: scale(1.03);
+    transition: 0.5s;
+    background-color: #eb8578;
+}
+
+.vitorr:hover {
+    transform: scale(1.03);
+    transition: 0.5s;
+    background-color: #f8f07b;
+}
+
+.adeliar {
+    background-color:#b2e2f2;
+}
+
+.marcor {
+    background-color: #fabfb7;
+}
+
+.vitorr {
+    background-color: #FDF9C4;
+}

@@ -1,0 +1,25 @@
+.ferramentas {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem 12rem;
+}
+
+.ferramentas .ferramentas-list {
+    display: flex;
+    gap: 5rem;
+}
+
+.ferramentas .ferramentas-list ul, li{
+    list-style-type:none;
+    color: black;
+    text-decoration: none;
+}
+
+.ferramentas .ferramentas-list ul{
+    width: 100%;
+}
+
+.ferramentas .ferramentas-list .recomendacoes{
+    width: 100%;
+}

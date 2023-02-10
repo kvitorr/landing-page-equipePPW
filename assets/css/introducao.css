@@ -1,0 +1,23 @@
+.introducao {
+    height: 56vh;
+    width: 100%;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FAF7EF;
+}
+
+.introducao h2 {
+    font-size: 2rem;
+}
+
+h2#introducao-title::after {
+    content: "";
+    display: block;
+    height: 2px;
+    background-color: blue;
+    width: 100%;
+    margin-top: 2px;
+}
+

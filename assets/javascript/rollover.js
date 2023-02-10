@@ -10,7 +10,7 @@ vitorimg.addEventListener("mouseover", () => {
     vitor.style.opacity = 0;
 
     setTimeout(() => {
-        vitor.setAttribute('src', './assets/images/vitor.jpeg')
+        vitor.setAttribute('src', './assets/images/perfil-vitor.jpeg')
         vitor.style.opacity = 1;
     }, 500);
 })
@@ -18,7 +18,7 @@ vitorimg.addEventListener("mouseover", () => {
 vitorimg.addEventListener("mouseout", () => {
     vitor.style.opacity = 0;
     setTimeout(() => {
-      vitor.setAttribute('src', './assets/images/download20230203205623.png');
+      vitor.setAttribute('src', './assets/images/vitor-desenho.png');
       vitor.style.opacity = 1;
     }, 500);
 })
@@ -30,7 +30,7 @@ marcosimg.addEventListener("mouseover", () => {
     marcos.style.opacity = 0;
 
     setTimeout(() => {
-        marcos.setAttribute('src', './assets/images/marcos.jpeg')
+        marcos.setAttribute('src', './assets/images/perfil-marcos.jpeg')
         marcos.style.opacity = 1;
     }, 500);
 })
@@ -38,7 +38,7 @@ marcosimg.addEventListener("mouseover", () => {
 marcosimg.addEventListener("mouseout", () => {
     marcos.style.opacity = 0;
     setTimeout(() => {
-      marcos.setAttribute('src', './assets/images/317007774_1065445031525087_3766872975051679921_n.jpg');
+      marcos.setAttribute('src', './assets/images/marcos-desenho.jpg');
       marcos.style.opacity = 1;
     }, 500);
 })
@@ -49,7 +49,7 @@ adeliaimg.addEventListener("mouseover", () => {
     adelia.style.opacity = 0;
 
     setTimeout(() => {
-        adelia.setAttribute('src', './assets/images/adelia.jpeg')
+        adelia.setAttribute('src', './assets/images/perfil-adelia.jpg')
         adelia.style.opacity = 1;
     }, 500);
 })
@@ -57,7 +57,7 @@ adeliaimg.addEventListener("mouseover", () => {
 adeliaimg.addEventListener("mouseout", () => {
     adelia.style.opacity = 0;
     setTimeout(() => {
-      adelia.setAttribute('src', './assets/images/WhatsApp Image 2023-02-08 at 21.35.00.jpeg');
+      adelia.setAttribute('src', './assets/images/adelia-desenho.jpeg');
       adelia.style.opacity = 1;
     }, 500);
 })

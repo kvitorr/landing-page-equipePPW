@@ -1,0 +1,12 @@
+.header{
+    padding: 1rem;
+    width: 100%;
+    color: white;
+    background-color: black;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.header p {
+    text-align: center;
+}
